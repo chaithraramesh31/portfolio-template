@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <ul class="navigation">
+            <li>
+                <a href="#home" onclick="toggleMenu()">
+                    <span class="icon"><i class="fa-solid fa-house"></i></span>
+                    <span class="title">Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="#about" onclick="toggleMenu()">
+                    <span class="icon"><i class="fa-solid fa-person"></i></span>
+                    <span class="title">About</span>
+                </a>
+            </li>
+            <li>
+                <a href="#skills" onclick="toggleMenu()">
+                    <span class="icon"><i class="fa-solid fa-medal"></i></span>
+                    <span class="title">Skills</span>
+                </a>
+            </li>
+            <li>
+                <a href="#works" onclick="toggleMenu()">
+                    <span class="icon"><i class="fa-solid fa-diagram-project"></i></span>
+                    <span class="title">Works</span>
+                </a>
+            </li>
+            <li>
+                <a href="#contact" onclick="toggleMenu()">
+                    <span class="icon"><i class="fa-solid fa-message"></i></span>
+                    <span class="title">Contact</span>
+                </a>
+            </li>
+        </ul>
+    </header>
+
+    <section class="home" id="home">
+        <div class="box">
+            <div class="imgBx"><img src="person.jpeg" alt="1"></div>
+            <div class="text">
+                <h6>HI THERE! I'M</h6>
+                <h3>FIRST LAST</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Esse architecto soluta quae corrupti voluptatibus voluptatem inventore, 
+                    reiciendis tempore asperiores cupiditate, necessitatibus nisi culpa.</p>
+                <div class="social">
+                    <a href="myCV.pdf" target="_blank" class="btn">Download my CV</a>
+                    <ul class="socialmedia">
+                        <li><a href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col50">
+                <h2 class="titletext txt">About me</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id provident recusandae non 
+                    voluptatem accusamus aspernatur at cumque distinctio alias! Repudiandae doloribus 
+                    maxime sit illum quidem tempora. Tenetur unde consequuntur vitae ipsum, repudiandae 
+                    neque molestiae? Doloribus at ex libero omnis voluptas assumenda numquam. Voluptas 
+                    nemo blanditiis illum necessitatibus quaerat velit tempore facere excepturi atque, 
+                    iure magnam quo sapiente, fugit non officiis impedit sint maiores quod nisi labore 
+                    fuga! Animi, sequi necessitatibus. Ullam, repellat reprehenderit, modi excepturi 
+                    quam exercitationem aperiam eveniet corrupti veritatis ipsam architecto. <br><br>Provident, 
+                    sequi cupiditate dignissimos laudantium quis impedit voluptatem sint maxime consectetur 
+                    hic voluptatum quam similique eveniet pariatur aliquam excepturi magni incidunt consequatur 
+                    officiis porro rerum. Eos, officia cumque dolorem dolorum fuga autem et excepturi, vero 
+                    maiores nostrum ratione ullam fugiat tempore optio quia voluptate odio natus voluptatem 
+                    asperiores nihil aliquid dignissimos pariatur sint libero! Magni, obcaecati expedita.</p>
+            </div>
+            <div class="col50">
+                <div class="qualificationContainer">
+                    <div class="qualification_content">
+                        <h3 class="qualificationTitle"><i class="fa-solid fa-pen-ruler"></i>Education</h3>
+                        <div class="qualificationInfo">
+                            <div>
+                                <h3 class="qualificationName">Education1</h3>
+                                <span class="qualificationCollege">College1</span>
+                                <span class="qualificationYear">Start year - End year</span>
+                            </div>
+                            <div>
+                                <h3 class="qualificationName">Education2</h3>
+                                <span class="qualificationCollege">College2</span>
+                                <span class="qualificationYear">Start year - End year</span>
+                            </div>
+                            <div>
+                                <h3 class="qualificationName">Education3</h3>
+                                <span class="qualificationCollege">College3</span>
+                                <span class="qualificationYear">Start year - End year</span>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="qualification_content">
+                        <h3 class="qualificationTitle"><i class="fa-solid fa-building"></i>Experience</h3>
+                        <div class="qualificationInfo">
+                            <div>
+                                <h3 class="qualificationName">Experience1</h3>
+                                <span class="qualificationCollege">Company1</span>
+                                <span class="qualificationYear">Start year - End year</span>
+                            </div>
+                            <div>
+                                <h3 class="qualificationName">Experience2</h3>
+                                <span class="qualificationCollege">Company2</span>
+                                <span class="qualificationYear">Start year - End year</span>
+                            </div>
+                            <div>
+                                <h3 class="qualificationName">Experience3</h3>
+                                <span class="qualificationCollege">Company3</span>
+                                <span class="qualificationYear">Start year - End year</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="title">
+            <h2 class="titletext">Skills</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="outerBox">
+            <div class="container">
+                <div class="box">
+                    <div class="content">
+                        <h3>Skill 1</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, sapiente.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="content">
+                        <h3>Skill 2</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, sapiente.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="content">
+                        <h3>Skill 3</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, sapiente.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="content">
+                        <h3>Skill 4</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, sapiente.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="content">
+                        <h3>Skill 5</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, sapiente.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="content">
+                        <h3>Skill 6</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, sapiente.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="content">
+                        <h3>Skill 7</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, sapiente.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="content">
+                        <h3>Skill 8</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, sapiente.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="content">
+                        <h3>Skill 9</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, sapiente.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="works" id="works">
+        <div class="title">
+            <h2 class="titletext">Works</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="outer">
+            <div class="container">
+                <div class="card">
+                    <div class="imgBx"><p>Work 1</p></div>
+                    <div class="content">
+                        <div>
+                            <h3>Work 1</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error repellat accusantium voluptatem maiores amet quis magnam tempore, cupiditate voluptatibus.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgBx"><p>Work 2</p></div>
+                    <div class="content">
+                        <div>
+                            <h3>Work 1</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error repellat accusantium voluptatem maiores amet quis magnam tempore, cupiditate voluptatibus.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgBx"><p>Work 3</p></div>
+                    <div class="content">
+                        <div>
+                            <h3>Work 1</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error repellat accusantium voluptatem maiores amet quis magnam tempore, cupiditate voluptatibus.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgBx"><p>Work 4</p></div>
+                    <div class="content">
+                        <div>
+                            <h3>Work 1</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error repellat accusantium voluptatem maiores amet quis magnam tempore, cupiditate voluptatibus.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="title">
+            <h2 class="titletext">Contact</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="container">
+            <div class="contactInfo">
+                <div>
+                    <h2>Contact Info</h2>
+                    <ul class="info">
+                        <li>
+                            <span><i class="fa-solid fa-location-dot"></i></span>
+                            <span>Lorem ipsum dolor<br>Lorem ipsum, dolor<br>Lorem</span>
+                        </li>
+                        <li>
+                            <span><i class="fa-solid fa-envelope"></i></span>
+                            <span>lorem@gmail.com</span>
+                        </li>
+                        <li>
+                            <span><i class="fa-solid fa-phone-volume"></i></span>
+                            <span>987-654-321</span>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="sci">
+                    <li><a href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                </ul>
+            </div>
+            <div class="contactForm">
+                <h2>Send a Message</h2>
+                <form class="formBox" method="POST">
+                    <div class="inputBox w50">
+                        <input type="text" required id="firstName" name="firstName">
+                        <span>First Name</span>
+                    </div>
+                    <div class="inputBox w50">
+                        <input type="text" required id="lastName" name="LastName">
+                        <span>Last Name</span>
+                    </div>
+                    <div class="inputBox w50">
+                        <input type="email" required id="userEmail" name="userEmail">
+                        <span>Email Address</span>
+                    </div>
+                    <div class="inputBox w50">
+                        <input type="text" required id="phoneNumber" name="phoneNumber">
+                        <span>Mobile Number</span>
+                    </div>
+                    <div class="inputBox w100">
+                        <textarea required id="message" name="message"></textarea>
+                        <span>Write your message here...</span>
+                    </div>
+                    <p class="contact_msg" id="contact_msg"></p>
+                    <div class="inputBox w100">
+                        <input type="submit" value="Send" id="send">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="toggle" onclick="toggleMenu()"></div>
+    <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/8a97487388.js" crossorigin="anonymous"></script>
+</body>
+</html>
